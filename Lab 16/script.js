@@ -1,4 +1,4 @@
-let operaçãoAtual = '';
+let operacaoAtual = '';
 let operador = '';
 let resultado = 0;
 
