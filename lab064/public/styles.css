@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif; /* Mantém a fonte */
+    background-color: #f0f0f0; /* Cor de fundo */
+    margin: 0; /* Remove margens */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo para títulos h1 */
+h1 {
+    color: #007BFF; /* Cor do título */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 18px; /* Tamanho da fonte do parágrafo */
+}
+
+/* Estilo para formulários, mas permitindo que o Tailwind aplique estilos */
+form {
+    background: none; /* Remove fundo para permitir que o Tailwind controle isso */
+    padding: 0; /* Remove espaçamento interno */
+    margin: 20px auto; /* Margem automática para centralizar */
+    max-width: 100%; /* Permite que o Tailwind defina largura */
+}
+
+/* Estilo para labels */
+label {
+    display: block; /* Exibe o label como um bloco */
+    margin-bottom: 5px; /* Espaçamento abaixo do label */
+}
+
+/* Estilo para inputs, textareas e uploads */
+input[type="text"],
+textarea,
+input[type="file"] {
+    /* Remove larguras e bordas, permitindo que o Tailwind defina */
+    padding: 10px; /* Mantém espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento abaixo do input */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para botões */
+button {
+    background-color: #5cb85c; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+}
+
+/* Efeito hover para botões */
+button:hover {
+    background-color: #4cae4c; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    background-color: #333; /* Cor do fundo do menu */
+    color: white; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilo para listas no menu de navegação */
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento */
+}
+
+/* Estilo para itens da lista no menu de navegação */
+nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para links no menu de navegação */
+nav ul li a {
+    color: white; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Efeito hover para links no menu de navegação */
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Node.js!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+    <h1 class="text-3xl text-blue-600 text-center">Bem-vindo ao Node.js!</h1>
+    <p class="text-lg">Esta é a página inicial.</p>
+
+    <!-- Formulário para envio de dados -->
+    <form action="/submit" method="POST" class="bg-white p-6 rounded-lg shadow-md mt-4 max-w-md mx-auto">
+        <label for="name" class="block text-sm font-medium text-gray-700">Nome:</label>
+        <input type="text" id="name" name="name" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+        <br>
+        <label for="message" class="block text-sm font-medium text-gray-700">Mensagem:</label>
+        <textarea id="message" name="message" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md"></textarea>
+        <br>
+        <button type="submit" class="mt-3 bg-blue-600 text-white py-2 px-4 rounded">Enviar</button>
+    </form>
+
+    <!-- Formulário para upload de arquivos -->
+    <h2 class="text-xl mt-6">Upload de Arquivos</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data" class="bg-white p-6 rounded-lg shadow-md mt-4 max-w-md mx-auto">
+        <label for="file" class="block text-sm font-medium text-gray-700">Escolha um arquivo:</label>
+        <input type="file" id="file" name="file" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+        <br>
+        <button type="submit" class="mt-3 bg-blue-600 text-white py-2 px-4 rounded">Enviar</button>
+    </form>
+</body>
+</html>
+
+
+
