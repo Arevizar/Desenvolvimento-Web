@@ -1,0 +1,18 @@
+{
+  "name": "projeto-integrador-web",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js & open http://localhost:3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Um projeto de blog de cuidados com animais de estimação",
+  "dependencies": {
+    "express": "^4.21.0",
+    "open": "^8.4.0" 
+  }
+}
+
